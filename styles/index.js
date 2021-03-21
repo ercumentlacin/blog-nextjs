@@ -7,6 +7,12 @@ export const GlobalStyle = createGlobalStyle`
 `
 export const theme = {
   colors: {
-    primary: '#0070f3'
+    primary: '#FFFFFF',
+    text: '#6E6F73',
+    heading: '#131314',
+    'dark-heading': '#020202',
+    pink: '#FFFFFF',
+    'dark-pink': '#F9B1D6',
+    blue: '#CBEAFE'
   }
 }
