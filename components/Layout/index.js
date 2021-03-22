@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import Container from '../Container'
+import Header from '../Header'
 import Navigation from '../Navigation/'
 import LayoutStyle from './styles'
 
@@ -21,6 +22,7 @@ function Layout({ children }) {
             rel="stylesheet"
           ></link>
         </Head>
+        <Header />
         <Navigation />
         <main>{children}</main>
         <footer>design by ercumentlacin</footer>

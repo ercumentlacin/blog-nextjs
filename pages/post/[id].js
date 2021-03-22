@@ -1,5 +1,5 @@
 import unfetch from 'isomorphic-unfetch'
-import Head from 'next/head'
+import { v4 as uuidv4 } from 'uuid'
 import { useRouter } from 'next/router'
 import Layout from '../../components/Layout'
 import string_to_slug from '../../helpers/titleToSlug'
@@ -11,7 +11,7 @@ const Post = ({ items }) => {
   return (
     <Layout>
       {items.map(({ title, categories }) => (
-        <article>
+        <article key={uuidv4()}>
           <header>
             <h2>{title}</h2>
             <p>
