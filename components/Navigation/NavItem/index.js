@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import StyledNavItem from './styles'
 
-function NavItem({ active = false, href, name }) {
+function NavItem({ active, href, name }) {
   return (
     <StyledNavItem className="nav-item">
       <Link href={href}>

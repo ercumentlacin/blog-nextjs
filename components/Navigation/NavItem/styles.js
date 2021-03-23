@@ -13,6 +13,10 @@ const StyledNavItem = styled.li`
       color: ${({ theme }) => theme.colors.heading} !important;
     }
   }
+  a.nav-link.active {
+    transition: 250ms ease-in-out;
+    color: ${({ theme }) => theme.colors.heading} !important;
+  }
 `
 
 export default StyledNavItem
