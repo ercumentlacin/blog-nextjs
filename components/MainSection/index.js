@@ -37,9 +37,10 @@ function MainSection({ items }) {
                   <span className="categories">{categories.join(', ')}</span>
                   <div className="ms-auto">
                     <Link
-                      href={`/post/${encodeURIComponent(
-                        string_to_slug(title)
-                      )}`}
+                      href={{
+                        pathname: '/post/[slug]',
+                        query: { slug: string_to_slug(title) }
+                      }}
                     >
                       <a>
                         <i
