@@ -36,7 +36,11 @@ function MainSection({ items }) {
                 <div className="d-flex align-items-center my-3">
                   <span className="categories">{categories.join(', ')}</span>
                   <div className="ms-auto">
-                    <Link href={`/post/${string_to_slug(title)}`}>
+                    <Link
+                      href={`/post/${encodeURIComponent(
+                        string_to_slug(title)
+                      )}`}
+                    >
                       <a>
                         <i
                           title="Devamını oku"
