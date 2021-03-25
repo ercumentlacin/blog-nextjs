@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import { v4 as uuidv4 } from 'uuid'
-import { ArticleStyled } from './styles'
+import ArticleStyled from './styles'
 import Moment from 'react-moment'
 import Link from 'next/link'
 import string_to_slug from '../../helpers/titleToSlug'
 
-export function MainSection({ items }) {
+function MainSection({ items }) {
   console.log(items)
 
   const regex = /<p>(.*?)<\/p>/
@@ -84,3 +84,5 @@ export function MainSection({ items }) {
     </div>
   )
 }
+
+export default MainSection

@@ -5,7 +5,7 @@ import Layout from '../../components/Layout'
 import string_to_slug from '../../helpers/titleToSlug'
 import Moment from 'react-moment'
 import Image from 'next/image'
-import { ArticlePostStyled } from './styles'
+import ArticlePostStyled from './styles'
 
 const Post = ({ items }) => {
   const router = useRouter()

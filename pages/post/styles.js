@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ArticlePostStyled = styled.article`
+const ArticlePostStyled = styled.article`
   padding: 2rem 0;
   img {
     max-width: 474px !important;
@@ -44,3 +44,4 @@ export const ArticlePostStyled = styled.article`
     color: black;
   }
 `
+export default ArticlePostStyled

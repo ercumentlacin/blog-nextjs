@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ArticleStyled = styled.article`
+const ArticleStyled = styled.article`
   img {
     max-width: 474px !important;
     margin: 0 auto !important;
@@ -34,3 +34,4 @@ export const ArticleStyled = styled.article`
     color: black;
   }
 `
+export default ArticleStyled

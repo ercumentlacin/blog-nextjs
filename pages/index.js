@@ -3,7 +3,7 @@ import Head from 'next/head'
 import unfetch from 'isomorphic-unfetch'
 // components
 import Layout from '../components/Layout'
-import { MainSection } from '../components/MainSection'
+import MainSection from '../components/MainSection'
 
 function Home({ items }) {
   // console.log(items)
