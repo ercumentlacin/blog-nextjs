@@ -41,11 +41,14 @@ function MainSection({ items }) {
                         pathname: '/post/[slug]',
                         query: { slug: string_to_slug(title) }
                       }}
-                    > */}
-                    {/* <a> */}
-                    <i title="Devamını oku" className="fas fa-directions"></i>
-                    {/* </a> */}
-                    {/* </Link> */}
+                    >
+                      <a>
+                        <i
+                          title="Devamını oku"
+                          className="fas fa-directions"
+                        ></i>
+                      </a>
+                    </Link> */}
                   </div>
                 </div>
                 {/* title */}
