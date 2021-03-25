@@ -14,10 +14,10 @@ function Home({ items }) {
         <title>Ana Sayfa || Ercüment Laçın</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className="row">
-        <div className="col-lg-3">aside</div>
+      <div className="row my-3">
+        <div className="col-md-3 border-top border-2">aside</div>
         <MainSection items={items} />
-        <div className="col-lg-3">aside</div>
+        <div className="col-md-3 border-top border-2">aside</div>
       </div>
     </Layout>
   )

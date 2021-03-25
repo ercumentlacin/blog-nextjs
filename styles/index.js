@@ -4,6 +4,19 @@ export const GlobalStyle = createGlobalStyle`
   body {
     
   }
+  img {
+    width: 100%;
+  }
+
+  p {
+    font-family: 'Rubik', sans-serif;
+    font-size: clamp(.8rem, 2.5vw, 1rem);
+  }
+
+  h1, h2,h3, h4 {
+    font-family: 'Rubik', sans-serif;
+  }
+  
 `
 export const theme = {
   colors: {
