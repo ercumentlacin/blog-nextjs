@@ -6,7 +6,7 @@ import Moment from 'react-moment'
 import Link from 'next/link'
 import string_to_slug from '../../helpers/titleToSlug'
 
-function MainSection({ items }) {
+export function MainSection({ items }) {
   console.log(items)
 
   const regex = /<p>(.*?)<\/p>/
@@ -84,5 +84,3 @@ function MainSection({ items }) {
     </div>
   )
 }
-
-export default MainSection
