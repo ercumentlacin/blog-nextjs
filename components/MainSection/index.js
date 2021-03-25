@@ -36,19 +36,16 @@ function MainSection({ items }) {
                 <div className="d-flex align-items-center my-3">
                   <span className="categories">{categories.join(', ')}</span>
                   <div className="ms-auto">
-                    <Link
+                    {/* <Link
                       href={{
                         pathname: '/post/[slug]',
                         query: { slug: string_to_slug(title) }
                       }}
-                    >
-                      <a>
-                        <i
-                          title="Devamını oku"
-                          className="fas fa-directions"
-                        ></i>
-                      </a>
-                    </Link>
+                    > */}
+                    {/* <a> */}
+                    <i title="Devamını oku" className="fas fa-directions"></i>
+                    {/* </a> */}
+                    {/* </Link> */}
                   </div>
                 </div>
                 {/* title */}
