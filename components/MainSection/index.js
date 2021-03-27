@@ -7,12 +7,12 @@ import Link from 'next/link'
 import string_to_slug from '../../helpers/titleToSlug'
 
 function MainSection({ items }) {
-  console.log(items)
+  //console.log(items)
 
   const regex = /<p>(.*?)<\/p>/
 
   return (
-    <div className="col-md-6 p-3 border border-2">
+    <div className="col-lg-6 p-3 border border-2">
       <div className="d-flex flex-column">
         {items.map(
           ({ thumbnail, title, categories, content, author, pubDate }) => {

@@ -7,8 +7,8 @@ function Header() {
   const date = new Date()
   return (
     <HeaderStyled className="header">
-      <div className="row align-items-center">
-        <div className="col-sm-3 col-lg-3">
+      <div className="row align-items-center header-content">
+        <div className="col-sm-3 col-lg-3 header-left">
           <div className="brand d-flex flex-column">
             <h1>Ercument Lacin</h1>
             <div className="spans">
@@ -18,9 +18,9 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="col-sm-7 col-sm-offset-1 col-lg-4 offset-lg-1 cuff text-center">
+        <div className="col-sm-7 col-sm-offset-1 col-lg-4 offset-lg-1 cuff text-center header-center">
           <div className="d-flex flex-column">
-            <h2>FRONTEND FACTORY</h2>
+            <h2 className="m-0">FRONTEND FACTORY</h2>
             <div className="date d-flex align-items-center justify-content-center">
               <span></span>
               <time>
@@ -30,7 +30,7 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 ms-auto d-none d-lg-block">
+        <div className="col-lg-3 ms-auto d-none d-lg-block header-right">
           <Image src="/sega.jpg" alt="Sega" width={'auto'} height={88} />
         </div>
       </div>

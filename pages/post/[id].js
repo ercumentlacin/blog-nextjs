@@ -10,7 +10,7 @@ import ArticlePostStyled from './styles'
 const Post = ({ items }) => {
   const router = useRouter()
   const { pid } = router.query
-  console.log(items)
+  // console.log(items)
   return (
     <Layout>
       <div className="row">

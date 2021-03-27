@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 function NavItems() {
   let router = useRouter()
   return (
-    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul className="navbar-nav me-auto mb-2 mb-lg-0 py-3">
       <NavItem
         active={router.pathname === '/' ? true : false}
         href="/"

@@ -39,6 +39,22 @@ const HeaderStyled = styled.div`
       }
     }
   }
+  @media (max-width: 992px) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .header-content {
+      flex-direction: column;
+    }
+    .header-left {
+      order: 1;
+      margin-top: 1rem;
+      width: 100%;
+      text-align: center;
+    }
+    .header-center {
+    }
+  }
 `
 
 export default HeaderStyled

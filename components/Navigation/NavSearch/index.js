@@ -9,7 +9,7 @@ function NavSearch() {
         placeholder="Search"
         aria-label="Search"
       />
-      <button className="btn btn-outline-success" type="button">
+      <button className="btn btn-outline-dark rounded-0" type="button">
         Search
       </button>
     </div>
