@@ -4,7 +4,7 @@ import AuthorStyled from './styles'
 
 function Author() {
   return (
-    <AuthorStyled className="col-lg-3 border-top border-2 px-0 px-lg-2">
+    <AuthorStyled className="col-lg-3 border-top border-2 px-1 px-lg-2">
       <div className="author d-flex px-2 py-3 mt-3 align-items-center">
         <div className="author-text d-flex flex-column flex-grow-1 me-2">
           <strong>Ercüment Laçın</strong>

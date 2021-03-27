@@ -13,6 +13,13 @@ const ArticleStyled = styled.article`
 
   a {
     display: block;
+    text-decoration: none;
+    color: black;
+    transition: all 750s ease-in-out;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   h2 {

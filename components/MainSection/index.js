@@ -52,7 +52,16 @@ function MainSection({ items }) {
                   </div>
                 </div>
                 {/* title */}
-                <h2>{title}</h2>
+                <h2>
+                  <Link
+                    href={{
+                      pathname: '/post/[slug]',
+                      query: { slug: string_to_slug(title) }
+                    }}
+                  >
+                    <a>{title}</a>
+                  </Link>
+                </h2>
                 {/* first paragraph */}
                 <div
                   dangerouslySetInnerHTML={{
